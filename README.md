@@ -7,15 +7,15 @@ Método: As pastas conterão um código que responde a uma questão contida no R
 Tecnologias: Java 8 , UML.
 
 **Creational Patterns**
-- [ ] Factory Method
-- [ ] Abstract Factory
-- [ ] Builder
+- [x] Factory Method
+- [x] Abstract Factory
+- [x] Builder
 - [ ] Prototype
 - [x] Singleton
 
 **Structural Patterns**
 
-- [ ] Adapter
+  :white_check_mark: Adapter
 - [ ] Bridge
 - [ ] Composite
 - [x] Decorator
@@ -25,7 +25,7 @@ Tecnologias: Java 8 , UML.
 
 **Behavioral Patterns**
 - [ ] Chain of Responsibility
-- [ ] Command
+- [x] Command
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Memento
