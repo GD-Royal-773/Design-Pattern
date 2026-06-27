@@ -14,8 +14,17 @@ public class BuilderDP {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public static void main(String[] args) {
+        Notificacao notificacaoUrgente = new Notificacao.Builder()
+            .setDestinatario("joao@email.com")
+            .setTitulo("Alerta de Segurança")
+            .setConteudo("Detectamos um novo acesso à sua conta.")
+            .addCanal("EMAIL")
+            .addCanal("PUSH")
+            .build();
+            
+        System.out.println("Destinatário: " + notificacaoUrgente.getDestinatario());
+        System.out.println("Título: " + notificacaoUrgente.getTitulo());
     }
-    
 }
+    

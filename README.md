@@ -2,35 +2,37 @@
 
 ## Repositório para estudo de padrões de projeto baseados em POO em Java
 
-Método: As pastas conterão um código que responde a uma questão contida no README, além de um diagrama simples (UML).
+Método: As pastas conterão um código que responde a uma questão contida no README, além de um diagrama simples (UML).Haverá tambem uma pasta com cenarios a serem resolvidos com o uso de mais de 1 padrão.
  
 Tecnologias: Java 8 , UML.
 
 **Creational Patterns**
-- [x] Factory Method
-- [x] Abstract Factory
-- [x] Builder
+
+  :white_check_mark: Factory Method
+  :white_check_mark: Abstract Factory
+  :white_check_mark: Builder
 - [ ] Prototype
-- [x] Singleton
+  :white_check_mark: Singleton
 
 **Structural Patterns**
 
   :white_check_mark: Adapter
 - [ ] Bridge
 - [ ] Composite
-- [x] Decorator
+  :white_check_mark: Decorator
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Proxy
 
 **Behavioral Patterns**
+
 - [ ] Chain of Responsibility
-- [x] Command
+  :white_check_mark: Command
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Memento
-- [x] Observer
+  :white_check_mark: Observer
 - [ ] State
-- [x] Strategy
+  :white_check_mark: Strategy
 - [ ] Template Method
 - [ ] Visitor
